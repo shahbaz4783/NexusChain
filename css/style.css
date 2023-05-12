@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+  /* Header */
+
+  #logo img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  header {
+    background-color: rgb(18, 49, 81);
+    padding: 20px;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  nav li {
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .social-media ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .socials a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  .defi-wallet{
+      border: 2px solid white;
+      border-radius: 10px;
+      width: 120px;
+      height: 40px;
+
+    }
+    
+    .defi-wallet a{
+      color: white;
+      text-decoration: none;
+      list-style: none;
+  
+  }
+
+  
+
+
+  
+
+
+  /*Section */
+
+section {
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+section h1 {
+  margin: 120px 0px 10px 0px;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+
+#hero-section {
+    background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+  }
+
+  .land-container{
+    margin: 150px 130px;
+    width: 60vw;
+    height: 60vh;
+    padding: 40px;
+  }
+
+  .land-container h2{
+    font-size: 3em;
+    color: greenyellow;
+  }
+
+  .land-container h3{
+    font-size: 1.5em;
+    color: rgb(30, 214, 214);
+  }
+
+  .land-container p{
+    font-size: 1.1em;
+    margin-top: 30px;
+    width: 35vw;
+    border: 2px solid blue;
+    background-color: #0c92f2;
+    padding: 20px;
+  }
+
+#airdrop-section {
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+ }
+
+ .airdrop-container{
+    border: 2px solid white;
+    width: 30vw;
+    height: 60vh;
+    margin: 20px auto;
+    text-align: center;
+    padding: 8px;
+    background-color: #07b6b0;
+ }
+
+ .airdrop-container h2{
+    padding: 20px;
+ }
+
+ .nft{
+    border: 2px solid pink;
+    width: 40%;
+    height: 50%;
+    margin: 20px;
+ }
+
+ .mint-now{
+    background-color: #00DBDE;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+ }
+  
+ .tokenomics-box{
+background-color: blue;
+ }
+
+ .distribution{
+    width: 50vw;
+    height: 30vh;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 1.5em;
+    background-color: violet;
+ }
+
+ .airdrop-tagline, .about-tagline{
+    width: 60vw;
+    margin: 14px auto;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.2em;
+ }
+
+ .about-tagline{
+    text-align: left;
+ }
+
+ #tokenomics-section {
+  background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+
+.tokenomics-box{
+    border: 2px solid white;
+    width: 60vw;
+    height: 30vh;
+    padding: 20px;
+    list-style: none;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.8em;
+    color: aquamarine;
+}
+
+
+#roadmap-section {
+  background-image: url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2113&q=80');
+}
+
+
+#about-us-section {
+  background-image: url('https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
+}
+
+.about-us-container{
+    width: 60vw;
+    margin: 10px auto;
+    padding: 6px;
+}
+
+.about-us-container h2{
+    color: rgb(4, 255, 0);
+}
+
+
+/* Footer */
+
+footer{
+    height: 30vh;
+    padding: 40px;
+    text-align: center;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);    
+  }
+
+  .footline{
+    color: aquamarine;
+    margin: 20px;
+  }
+
+  .foot-social{
+    margin: 0px;
+  }
