@@ -8,10 +8,18 @@ section h1 {
 
   nav{
     position: fixed;
-    bottom: 0;
+    bottom: -1px;
     background-color: blueviolet;
     width: 100vw;
     left: 0;
+  }
+
+  nav li{
+    /* width: 100vw; */
+    /* margin: 0px auto; */
+    color: red;
+    width: 90vw;
+    margin: auto;
   }
 
   .land-container{
