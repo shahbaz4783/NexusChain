@@ -18,15 +18,17 @@ html, body {
   #logo img{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
   }
   
   header {
-    background-color: rgb(18, 49, 81);
+    background-color: rgb(224, 146, 2);
     padding: 20px;
     position: fixed;
     width: 100vw;
     display: flex;
     list-style: none;
+    justify-content: space-between;
   }
   
   nav ul {
@@ -50,36 +52,32 @@ html, body {
     display: inline-block;
   }
 
-  .social-media ul{
-    list-style: none;
+  .social-media{
     display: flex;
-    justify-content: space-around;
+    list-style: none;
+    /* border: 2px solid #00DBDE; */
+    align-items: center;
   }
 
+  
   .socials a{
     color: white;
-    text-decoration: none;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
+    /* border: 2px solid navajowhite; */
   }
 
-  .defi-wallet{
+
+
+  #defi-wallet{
       border: 2px solid white;
       border-radius: 10px;
       width: 120px;
       height: 40px;
+      cursor: pointer;
 
     }
-    
-    .defi-wallet a{
-      color: white;
-      text-decoration: none;
-      list-style: none;
-  
-  }
-
-  
 
 
   
@@ -112,20 +110,25 @@ section ul {
   }
 
   .land-container{
-    margin: 150px 130px;
-    width: 60vw;
+    margin: 150px auto;
+    width: 100vw;
     height: 60vh;
     padding: 40px;
   }
 
   .land-container h2{
-    font-size: 3em;
+    font-size: 7.5rem;
     color: greenyellow;
+    width: 60vw;
+    margin: auto;
   }
 
   .land-container h3{
-    font-size: 1.5em;
+    font-size: 3rem;
     color: rgb(30, 214, 214);
+    width: 60vw;
+    margin: auto;
+    font-weight: lighter;
   }
 
   .land-container p{
@@ -137,8 +140,9 @@ section ul {
     padding: 20px;
   }
 
+
 #airdrop-section {
-    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+    background-image: url('https://images.unsplash.com/photo-1581904902287-0991e3fd1725?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
  }
 
  .airdrop-container{
@@ -196,7 +200,7 @@ background-color: blue;
  }
 
  #tokenomics-section {
-  background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+  background-image: url('https://images.unsplash.com/photo-1581904902396-1460f95198c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
 }
 
 .tokenomics-box{
@@ -213,12 +217,12 @@ background-color: blue;
 
 
 #roadmap-section {
-  background-image: url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2113&q=80');
+  background-image: url('https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
 }
 
 
 #about-us-section {
-  background-image: url('https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
+  background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
   height: auto;
 }
 
@@ -239,8 +243,7 @@ footer{
     height: 30vh;
     padding: 40px;
     text-align: center;
-    background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);    
+    background-image: url('https://images.unsplash.com/photo-1502239608882-93b729c6af43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
   }
 
   .footline{
